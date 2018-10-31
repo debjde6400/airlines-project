@@ -1,0 +1,327 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.top-right-menu {
+  align-self: flex-end;
+  font-size: 12px;
+}
+
+.top-right-menu ul {
+  display: inline-block;
+}
+
+.top-right-menu .mobile-hidden {
+  display: none;
+}
+
+.top-right-menu li:not(:last-child) {
+  border-right: 1px solid #01266C;
+}
+
+.top-right-menu a, .top-right-menu a:hover {
+  color: #01266C;
+  padding: 0 5px;
+}
+
+.navbar {
+  padding: 0;
+  background-color: #01266C;
+  margin-bottom: 21px;
+}
+
+.navbar .menu {
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.navbar .menu li {
+  display: block;
+  padding: 6px 0;
+}
+
+.navbar .menu li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navbar .menu li:hover {
+  background-color: #FEDFC0;
+}
+
+.navbar .menu li:hover a, .navbar .menu li:hover a:hover {
+  color: #01266C;
+}
+
+.main-article {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.main-article h1 {
+  color: #A56710;
+  font-size: 22px;
+}
+
+.main-article h2 {
+  color: #01266C;
+  font-size: 18px;
+  margin: 16px 0 5px;
+}
+
+.main-article p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.main-article img {
+  height: 160px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.carousel {
+  display: none;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+label {
+  font-size: 12px;
+}
+
+.hide-default {
+  appearance: none;
+}
+
+.item-choice {
+  background: url(Assets/down-caret.png) right no-repeat #FFFFFF;
+  background-position: 94% 51%;
+  background-size: 10px;
+}
+
+.date-choice {
+  background: url(Assets/calendar-icon.png) right no-repeat #FFFFFF;
+  background-position: 94% 51%;
+  background-size: 20px;
+}
+
+.search-button {
+  background: #FFFFFF;
+  border: none;
+  color: #01266C;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.side-form, .side-info {
+  background-color: #84BDDB;
+  margin-bottom: 38px;
+}
+
+.side-form ul {
+  background-color: #01266C;
+  margin-bottom: 21px;
+}
+
+.side-form li {
+  color: #FFFFFF;
+  padding: 8px 0;
+  text-align: center;
+  width: 49%;
+}
+
+.side-form li:hover {
+  background-color: #FA9F1D;
+}
+
+.side-info {
+  padding-bottom: 25px;
+}
+
+.side-info h3 {
+  background-color: #01266C;
+  color: #FFFFFF;
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 9px;
+  padding: 9px 15px;
+}
+
+.side-info span {
+  display: block;
+  font-size: 14px;
+  padding: 2px 0;
+}
+
+.side-info .start {
+  color: #01266C;
+  font-size: 16px;
+}
+
+.side-info .price {
+  font-size: 32px;
+}
+
+.side-info .footnote {
+  float: right;
+  font-size: 11px;
+}
+
+footer {
+  background-color: #01266C;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 25px 0;
+  text-align: center;
+}
+
+footer a, footer a:hover {
+  color: #FFFFFF;
+  padding: 2px 5px 0;
+}
+
+footer span {
+  display: block;
+}
+
+@media (min-width:768px) {
+  header {
+    margin: 10px 0;
+  }
+  
+  .top-right-menu ul {
+    margin-bottom: 0;
+  }
+  
+  .top-right-menu .mobile-view {
+    display: none;
+  }
+  
+  .top-right-menu .mobile-hidden {
+    display: inline-block;
+  }
+  
+  .top-right-menu button {
+    display: none;
+  }
+  
+  .navbar .menu {
+    padding: 0;
+    width: 100%;
+  }
+  
+  .navbar .menu li {
+    display: inline-block;
+    padding: 8px 0;
+    width: 19%;
+  }
+  
+  .carousel {
+    display: block;
+  }
+  
+  .carousel a {
+    width: 10%;
+  }
+  
+  .carousel a img {
+    height: 20%;
+    width: 100%;
+  }
+  
+  .carousel-indicators li {
+    height: 2px;
+    margin: 0 2px;
+    width: 15px;
+  }
+  
+  .main-article {
+    margin-top: 19px;
+  }
+  
+  .main-article h1 {
+    margin-bottom: 0;
+  }
+  
+  .main-article p {
+    line-height: 17px;
+  }
+  
+  .main-article div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-article section {
+    width: 48%;
+  }
+  
+  .main-article img {
+    height: 133px;
+  }
+  
+  .side-form, .side-info {
+    margin-bottom: 23px;
+  }
+  
+  footer {
+    padding: 15px;
+    text-align: initial;
+  }
+  
+  footer ul {
+    float: right;
+  }
+  
+  footer li {
+    padding: 0 7px;
+  }
+  
+  footer li:not(:last-child) {
+    border-right: 1px solid #FFFFFF;
+  }
+  
+  footer span {
+    display: inline;
+  }
+}
+
+@media (min-width:992px) {
+  header {
+    margin: 13px 0;
+  }
+  
+  .main-article {
+    margin-top: 23px;
+  }
+  
+  .main-article img {
+    height: 200px;
+    margin-top: 13px;
+  }
+  
+  .main-article p {
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
