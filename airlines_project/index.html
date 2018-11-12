@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title>
       Airlines Website
@@ -53,38 +53,40 @@
     </header>
     
     <nav class="navbar navbar-expand-md">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav nav-fill container">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Home
-            </a>
-          </li>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Home
+              </a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              About
-            </a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                About
+              </a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Offers
-            </a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Offers
+              </a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Services
-            </a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Services
+              </a>
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Contacts
-            </a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     
@@ -161,31 +163,35 @@
         
         <aside class="col-md-4 col-lg-3 order-md-first">
           <div class="side-form">
-            <ul class="menu">
-              <li>
-                Flight
+            <ul class="nav nav-fill">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  Flight
+                </a>
               </li>
-              
-              <li>
-                Hotel
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  Hotel
+                </a>
               </li>
             </ul>
             
             <div class="container">
               <form class="form">
-                <div class="form-group">
+                <div class="form-group mb-2">
                   <div class="form-check form-check-inline">
-                    <input name="journey-type" class="form-check-input" value="round-trip" type="radio">
+                    <input name="journey-type" class="form-check-input" id="round-trip" type="radio" value="round-trip">
 
-                    <label class="form-check-label">
+                    <label class="form-check-label" for="round-trip">
                       Round Trip
                     </label>
                   </div>
 
                   <div class="form-check form-check-inline">
-                    <input name="journey-type" class="form-check-input" value="one-way" type="radio">
+                    <input name="journey-type" class="form-check-input" id="one-way" type="radio" value="one-way">
 
-                    <label class="form-check-label">
+                    <label class="form-check-label" for="one-way">
                       One Way
                     </label>
                   </div>
@@ -245,9 +251,9 @@
 
                 <div class="form-group">
                   <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
+                    <input type="checkbox" class="form-check-input" id="lower-fare-flexible-travel" value="lower-fare-flexible-travel">
 
-                    <label class="form-check-label">
+                    <label class="form-check-label" for="lower-fare-flexible-travel">
                       Lowest Fare / Flexible travel
                     </label>
                   </div>
@@ -304,15 +310,17 @@
 
                 <div class="form-group">
                   <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
+                    <input type="checkbox" class="form-check-input" id="apply-promo-code" value="apply-promo-code">
 
-                    <label class="form-check-label"> 
+                    <label class="form-check-label" for="apply-promo-code"> 
                       Apply promo code
                     </label>
                   </div>
                 </div>
 
-                <input type="submit" value="Search" class="search-button">
+                <button type="submit" class="search-button">
+                  Search
+                </button>
               </form>
             </div>
           </div>
